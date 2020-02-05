@@ -8,6 +8,7 @@ const searchuser = document.getElementById('searchuser');//html file me searchus
 
 searchuser.addEventListener('keyup',(e) => {//is searchuser pe event laga diya
 	const userText = e.target.value;
+	{userText}
 	if(userText!==''){
 		//ab http call lagado
 		github.getUser(userText)
